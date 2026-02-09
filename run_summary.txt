@@ -1,0 +1,13 @@
+
+2D PCA scatter saved to: /mnt/data/pca_scatter.png
+Saved models:
+- /mnt/data/logreg_original_features.pkl
+- /mnt/data/pipeline_scaler_pca_logreg.pkl
+Preprocessing object (scaler + full PCA fit): /mnt/data/preprocessing_scaler_pca.pkl
+
+Explained variance (first 5 PCs): [0.4441, 0.1894, 0.0954, 0.0672, 0.0552]
+Cumulative variance (first 5 PCs): [0.4441, 0.6336, 0.729, 0.7963, 0.8514]
+
+Performance:
+Original features logistic -> accuracy: 0.9825, ROC AUC: 0.9957
+PCA (10 PCs) logistic -> accuracy: 0.9649, ROC AUC: 0.9954
